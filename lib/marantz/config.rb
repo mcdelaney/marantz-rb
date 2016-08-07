@@ -17,7 +17,7 @@ module Marantz
     spotify: 'SPOTIFY'
   }
   SUPPORTED_MODELS = {
-    9 => 'SR5008'
+    8=> 'NR1607'
   }
 
   def configure(&block)
@@ -33,7 +33,7 @@ module Marantz
   end
 
   configure do |config|
-    config.host = '127.0.0.1'
-    config.max_volume = 50.0
+    config.host = '10.0.0.22'
+    config.max_volume = 90.0
   end
 end

@@ -1,4 +1,6 @@
 require 'xml'
+require 'uri'
+require 'net/http'
 
 module Marantz
   class Client
